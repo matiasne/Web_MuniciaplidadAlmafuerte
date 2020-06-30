@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Almafuerte Ciudad</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+  
+  <!-- ======= Header ======= -->
+  <header id="header">
+    
+      <div class="container-logo">
+        
+        <div class="logo-A">
+          <img src="./assets/img/logo-A.png" alt="">
+        </div>
+        
+        <img class="logo-B" src="./assets/img/logo-B.png" alt="">
+       
+       
+          <img class="terminacion-logo" src="./assets/img/terminacion-logo.png" alt="">
+       
+      </div>   
+
+      <nav class="nav-menu float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="./index.html">Home</a></li>
+          <li><a href="#servicios">Trámites</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Gobierno
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Intendencia</a>
+              <a class="dropdown-item" href="#">Concejo Deliberante</a>
+              <a class="dropdown-item" href="#">Tribunal de Cuentas
+              </a>
+            </div>
+          </li>
+          <li><a href="#areas">Areas</a></li>   
+          <li><a href="./turismo.html">Novedades </a></li>
+          <li><a href="./turismo.html">Contactos  </a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url('assets/img/slide/slide-1.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animated fadeInDown">Trámites</h2>
+                <p class="animated fadeInUp">Conocé los requisitos y documentación necesaria de los trámites municipales. </p>
+                <a href="https://www.pgmtools.com.ar/arte/home/menu" class="btn-get-started animated fadeInUp scrollto">Realizar Trámite</a>
+
+              
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url('assets/img/slide/slide-2.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                  <h2 class="animated fadeInDown">Novedades</h2>
+                  <p class="animated fadeInUp">Conocé las últimas novedades de la gestión municipal.</p>
+                  <a href="#novedades" class="btn-get-started animated fadeInUp scrollto">Ver Novedades</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url('assets/img/slide/slide-3.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                  <h2 class="animated fadeInDown">Áreas de Gobierno</span></h2>
+                  <p class="animated fadeInUp">Toda la información de las distintas Áreas de Gobierno</p>
+                  <a href="#areas" class="btn-get-started animated fadeInUp scrollto">Ver Areas</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon icofont-rounded-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon icofont-rounded-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  
+    <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        
+        <div class="modal-body">
+            <section  class="services">
+                <div class="container">
+          
+                  <div class="section-title-modal" style="text-align: center;">
+                    <h2>¡Hola!</h2>
+                    <h2>¿En que te ayudamos?</h2>
+                  </div>
+                  <br>
+                  <div class="row">
+                    <a class="col-lg-6 col-md-6" href="./turismo.html">
+                      <div class="icon-box" data-aos="fade-up">
+                        <div class="icon"><i class="icofont-beach-bed"></i></div>
+                        <h4 class="title-modal">Turismo</h4>
+                        <p class="description-modal">Información acerca de nuestra propuesta turística y principales atracciones </p>
+                      </div>
+                    </a>
+                    <a  class="col-lg-6 col-md-6" href="./index.html?vecinos=true">
+                      <div  aria-hidden="true" class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon"><i class="icofont-users"></i></div>
+                        <h4 class="title">Vecinos</h4>
+                        <p class="description-modal">Trámites, Gobierno Abierto e información sobre nuestra ciudad</p>
+                      </div>
+                    </a>
+                    
+                  </div>
+          
+                </div>
+              </section>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+
+    
+
+    <!-- ======= Services Section ======= -->
+    <section id="servicios" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Servicios</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="icofont-computer"></i></div>
+            <h4 class="title"><a href="">Guía de Trámites</a></h4>
+            <p class="description">Esta sección te permite obtener detalles de los trámites que puedes realizar en nuestro municipio o realizar tu trámite online</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
+            <h4 class="title"><a href="./gobierno-abierto.html">Gobierno Abierto</a></h4>
+            <p class="description">Sección orientada a la transparencia, podrás encontrar detalles de nuestra gestión con información actualizada.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="icofont-earth"></i></div>
+            <h4 class="title"><a href="">GIRSU</a></h4>
+            <p class="description">Informate sobre nuestro sistema de separación residuos. Gestión Integral de Residuos Sólidos Urbanos</p>
+          </div>
+          
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Our Portfolio Section ======= -->
+    <section id="areas" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="section-title">
+          <h2>Areas</h2>
+          <p>Selecciona el area de interés para obtener detalles e información útil</p>
+        </div>
+
+        
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <a href="salud.html">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Salud</h4>
+                  <p>Derecho a la salud y solidaridad</p>                
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Educación</h4>
+                <p>Fortalecer las relaciones y vínculos institucionales entre el Municipio y los Establecimientos Educativos.</p>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Ambiente</h4>
+                <p>Controlamos el cumplimiento de la normativa ambiental en nuestra ciudad.</p>               
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cultura</h4>
+                <p>Fomentar el arte y la cultura en todos los sectores de la ciudad.</p>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Turismo</h4>
+                <p>Posicionar al destino entre las diferentes propuesta de la provincia de Córdoba</p>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Deporte</h4>
+                <p>Llevar el deporte a todos los sectores de la ciudad con proyectos sustentables que puedan mantenerse a través del tiempo</p>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Secretaría de Gobierno</h4>
+                <p>Falta definir texto</p>               
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Coordinación Estratégica y Operativa</h4>
+                <p>Falta definir texto</p>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Desarrollo Urbano</h4>
+                <p>Falta definir texto</p>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cuerpo de Inspectoría Municipal</h4>
+                <p>Falta definir texto</p>               
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Recursos Tributarios</h4>
+                <p>Ejecutar eficientemente la política tributaria fijada por el municipio</p>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Finanzas</h4>
+                <p>Acción Social tendiente a mejorar la calidad de vida de los ciudadanos</p>                
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Our Portfolio Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="girsu" class="about">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-lg-6 video-box">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <a href="https://www.youtube.com/watch?v=NRAMWTmlNPQ" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          </div>
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
+
+            <div class="section-title">              
+              <h2>GIRSU</h2>
+              <p>GIRSU es un Plan de Gestión Integral de Residuos Sólidos Urbanos cuyo principal objetivo es el tratamiento integral y ambientalmente adecuado de los residuos sólidos generados en la ciudad.</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <a href="" >
+                <div class="icon"><i class="bx bx-trash"></i></div>              
+                <h4 class="title">Residuos Especiales</h4>
+                <p class="description">¿Sabes cómo tratar los residuos especiales?</p>
+              </a>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <a href="" >
+                <div class="icon"><i class="bx bx-crop"></i></div>
+                <h4 class="title">Cómo separo?</h4>
+                <p class="description">Separar es el primer paso para reciclar y preservar nuestros recursos.</p>
+              </a>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <a href="" >
+                <div class="icon"><i class="bx bx-time"></i></div>
+                <h4 class="title">Días y Horarios</h4>
+                <p class="description">De acuerdo a tu zona existen días para recolección común y selectiva.</p>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+
+    <!-- ======= Our Team Section ======= -->
+    <!--section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Our Team</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer</span>
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Product Manager</span>
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Amanda Jepson</h4>
+                <span>Accountant</span>
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section--><!-- End Our Team Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <!--section id="faq" class="faq section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <div class="row  d-flex align-items-stretch">
+
+          <div class="col-lg-6 faq-item" data-aos="fade-up">
+            <h4>Non consectetur a erat nam at lectus urna duis?</h4>
+            <p>
+              Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+            </p>
+          </div>
+
+          <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="100">
+            <h4>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h4>
+            <p>
+              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
+            </p>
+          </div>
+
+          <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="200">
+            <h4>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</h4>
+            <p>
+              Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus.
+            </p>
+          </div>
+
+          <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="300">
+            <h4>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h4>
+            <p>
+              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
+            </p>
+          </div>
+
+          <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="400">
+            <h4>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</h4>
+            <p>
+              Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+            </p>
+          </div>
+
+          <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="500">
+            <h4>Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?</h4>
+            <p>
+              Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section--><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Our Portfolio Section ======= -->
+    <section id="novedades" class="portfolio section-bg">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+  
+          <div class="section-title">
+            <h2>Novedades</h2>
+            <p>Ciudad de Almafuerte</p>
+          </div>
+  
+          
+  
+          <div class="row portfolio-container">
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/novedad-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Programa de #Salud #Escolar</h4>
+                  <p>Comenzó la visita médica en los distintos centros educativos...</p>                
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/novedad-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Funciona la #Planta Regional de #RSU</h4>
+                  <p>Una gran noticia para Almafuerte y la región! Ya se destinan nuestros residuos a la nueva planta...</p>                
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/novedad-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>#Remodelación del Taller Municipal Esperanza y UNI 3.</h4>
+                  <p>Ya FALTA MENOS para finalizar con la remodelación de estos espacios tan importantes para los vecinos...</p>               
+                </div>
+              </div>
+            </div>           
+  
+          </div>
+  
+        </div>
+      </section><!-- End Our Portfolio Section -->
+
+    <!-- ======= Contact Us Section ======= -->
+    <section id="contacto" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Datos de Contacto</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="info-box">
+              <i class="bx bx-map"></i>
+              <h3>Dirección</h3>
+              <p>Tucuman 777, Almafuerte, Córdoba, Argentina</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="info-box">
+              <i class="bx bx-envelope"></i>
+              <h3>Email</h3>
+              <p>info@almafuerte.gov.ar</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="info-box ">
+              <i class="bx bx-phone-call"></i>
+              <h3>Teléfono</h3>
+              <p>+54 (3571) 471110/470202</p>
+            </div>
+          </div>
+
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="col-lg-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Tu Nombre" data-rule="minlen:4" data-msg="Por favor ingresa al menos 4 caracteres" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Tu Email" data-rule="email" data-msg="Por favor ingresa un mail válido" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor ingrese un mensaje" placeholder="Mensaje"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Enviando...</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Tu mensaje ha sido enviado. Gracias!</div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Us Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>Municipalidad de Almafuerte</h3>
+            <p>
+              Tucuman 777 <br>
+              Almafuerte, Córdoba, Argentina<br><br>
+              <strong>Teléfono:</strong> +54 (3571) 471110/470202<br>
+              <strong>Email:</strong> info@almafuerte.gov.ar<br>
+            </p>
+            <div class="social-links mt-3">
+              <a href="https://www.youtube.com/channel/UC1ihUKpGO8hcsgDZJw8I60A?feature=watch" class="twitter"><i class="bx bxl-youtube"></i></a>
+              <a href="https://www.facebook.com/MuniAlmafuerte/" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/munialmafuerte/" class="instagram"><i class="bx bxl-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#servicios">Servicios</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#areas">Areas</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#girsu">GIRSU</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#novedades">Novedades</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Turismo</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Areas</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Salud</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Educación</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Ambiente</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Cultura</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Turismo</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Deporte</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">CIM</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Recursos Tributarios</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Accion Social y Desarrollo Humano</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>SocialUp</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/ -->
+        Designed by <a href="http://socialup.com.ar/">SocialUp</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
