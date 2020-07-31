@@ -525,6 +525,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .section-title h2 {
@@ -547,6 +548,7 @@ section-title-modal h2{
 # About Us
 --------------------------------------------------------------*/
 .about {
+
   padding-bottom: 30px;
 }
 
@@ -874,6 +876,90 @@ section-title-modal h2{
 .description-modal{
   color:white;
 }
+
+
+/*--------------------------------------------------------------
+# Areas
+--------------------------------------------------------------*/
+.areas {
+  padding-bottom: 30px;
+}
+
+.areas .icon-box {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.areas .icon {
+  display: flex;
+  justify-content: center;
+}
+
+.icon img{
+  width: 100%;
+  max-width: 90px;
+  margin-bottom: 20px;
+}
+.areas .icon i {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.5s;
+  color: #428bca;
+  font-size: 40px;
+  overflow: hidden;
+  padding-top: 20px;
+  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
+}
+
+.areas .icon-box:hover .icon i {
+  box-shadow: 0px 0 30px rgba(66, 139, 202, 0.5);
+}
+
+.areas .title {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 18px;
+  position: relative;
+  padding-bottom: 15px;
+  color:white;
+}
+
+.areas .title a {
+  color: #0059B2;
+  transition: 0.3s;
+}
+
+.areas .title a:hover {
+  color: #428bca;
+}
+
+.areas .title::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #428bca;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.areas .description {
+  line-height: 24px;
+  font-size: 14px;
+  color:#0059B2;
+}
+
+.title-modal{
+  color:white;
+}
+.description-modal{
+  color:white;
+}
+
 
 /*--------------------------------------------------------------
 # Our Portfolio
