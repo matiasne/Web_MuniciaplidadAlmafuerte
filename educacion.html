@@ -26,52 +26,13 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+<script src="./header.js"></script>
   
 </head>
 
 <body>
 
-  
-  <!-- ======= Header ======= -->
-  <header id="header">
-    
-      <div class="container-logo">
-        
-        <div class="logo-A">
-          <img src="./assets/img/logo-A.png" alt="">
-        </div>
-        
-        <img class="logo-B" src="./assets/img/logo-B.png" alt="">
-       
-       
-          <img class="terminacion-logo" src="./assets/img/terminacion-logo.png" alt="">
-       
-      </div>   
-
-      <nav class="nav-menu float-right d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="./index.html">Home</a></li>
-          <li><a href="#servicios">Trámites</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Gobierno
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Intendencia</a>
-              <a class="dropdown-item" href="#">Concejo Deliberante</a>
-              <a class="dropdown-item" href="#">Tribunal de Cuentas
-              </a>
-            </div>
-          </li>
-          <li><a href="#areas">Areas</a></li>   
-          <li><a href="./turismo.html">Novedades </a></li>
-          <li><a href="./turismo.html">Contactos  </a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-
-    
-  </header><!-- End Header -->
+  <cabecera-component></cabecera-component>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
@@ -81,9 +42,8 @@
         <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
         <div class="carousel-inner" role="listbox">
-
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url('assets/img/portfolio/portfolio-1.jpg');">
+          <div class="carousel-item active" style="background-image: url('assets/img/portadas/educacion.jpg');">
             <div class="carousel-container">
               <div class="carousel-content container">
                 
@@ -94,7 +54,7 @@
                         <div class="pic"><img src="assets/img/team/team-13.jpg" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Prof.Nadia Figueroa </h4>
-                            <span>Prof.Nadia Figueroa
+                            <span>Subscretaria de Educación
                             </span>
                             <div class="social">
                             <a href=""><i class="icofont-twitter"></i></a>
@@ -117,26 +77,44 @@
               </div>
             </div>
           </div>
-
-          
-
         </div>
-
-        <!--a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon icofont-rounded-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon icofont-rounded-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a-->
-
       </div>
     </div>
   </section><!-- End Hero -->
 
   
-  
+  <section id="tramites" class="about">
+    <div class="container" data-aos="fade-up">
+      <div class="row no-gutters">
+       
+        <div class="d-flex flex-column justify-content-center about-content">
+
+          <div class="section-title">              
+            <h2>Trámites</h2>
+            <p>Trámites que puedes realizar en esta area</p>
+          </div>
+
+          <div class="icon-box">
+            <a href="https://forms.gle/ZYbL2thcZmanHer39" >
+              <div class="icon"><i class="icofont-attachment"></i></div>              
+              <h4 class="title">Propuestas de Formación</h4>
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptatibus iste facere nemo corrupti distinctio aliquid, molestias debitis quod ut quo quibusdam temporibus minus corporis quis fugiat! Veniam, nobis esse.</p>
+            </a>
+          </div>
+
+          <div class="icon-box" >
+            <a href="https://forms.gle/ibMsKhpGnd8kDUot8" >
+              <div class="icon"><i class="icofont-attachment"></i></div>   
+              <h4 class="title">Consultas y Reclamos</h4>
+              <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum consequatur, veritatis neque architecto, beatae aliquam non, ducimus error blanditiis iste omnis delectus. Ullam distinctio accusantium velit pariatur illum nihil unde!</p>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
 
   <main id="main">
 

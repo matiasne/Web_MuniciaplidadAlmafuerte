@@ -26,52 +26,12 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <script src="./header.js"></script>
   
 </head>
 
 <body>
-
-  
-  <!-- ======= Header ======= -->
-  <header id="header">
-    
-      <div class="container-logo">
-        
-        <div class="logo-A">
-          <img src="./assets/img/logo-A.png" alt="">
-        </div>
-        
-        <img class="logo-B" src="./assets/img/logo-B.png" alt="">
-       
-       
-          <img class="terminacion-logo" src="./assets/img/terminacion-logo.png" alt="">
-       
-      </div>   
-
-      <nav class="nav-menu float-right d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="./index.html">Home</a></li>
-          <li><a href="#servicios">Trámites</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Gobierno
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Intendencia</a>
-              <a class="dropdown-item" href="#">Concejo Deliberante</a>
-              <a class="dropdown-item" href="#">Tribunal de Cuentas
-              </a>
-            </div>
-          </li>
-          <li><a href="#areas">Areas</a></li>   
-          <li><a href="./turismo.html">Novedades </a></li>
-          <li><a href="./turismo.html">Contactos  </a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-
-    
-  </header><!-- End Header -->
+  <cabecera-component></cabecera-component>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
@@ -143,7 +103,126 @@ Actualmente desempeña sus funciones como Subsecretario de Desarrollo Urbano del
 
   <main id="main">
 
-    
+    <section id="team" class="team container">
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up">
+            <div class="member">
+            <div class="pic"><img src="assets/img/team/team-16.jpg" class="img-fluid" alt=""></div>
+            <div class="member-info">
+                <h4>Arq. Noelia Toscano
+                </h4>
+                <span>Obras Privadas y Programa Municipal de Vivienda
+
+                </span>
+                <div class="social">
+                <a href=""><i class="icofont-twitter"></i></a>
+                <a href=""><i class="icofont-facebook"></i></a>
+                <a href=""><i class="icofont-instagram"></i></a>
+                <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6 area-texto" style="color:grey" >
+            Nacido el 18 de diciembre de 1989 en la Ciudad de Almafuerte. Es Arquitecto por la Facultad de Arquitectura, Urbanismo y Diseño de la Universidad Nacional de Córdoba y Técnico Electromécanico egresado de la ENET Río III.
+  Obtuvo Primer lugar Categoría A: Por capacidad innovadora y creativa en Arquitectura paisajística, reconocimiento por desarrollo de proyectos en Equipamiento y participó en concurso Latinoamericano Alacero 2015: Desarrollo proyectual deportivo y social.
+
+  Formó parte de Aurea Arquitectos, estudio de arquitectura dedicado diseño y la ejecución de proyectos, entre los más destacados figuran el Complejo Deportivo y Recreativo de Cristian Pavón en Anisacate, la nueva Sede del Sindicato SATSAID en la ciudad de Córdoba, el primer Gimnasio Cerebral  del país “Activamente” y la Plaza Saturnina en Berrotarán, ente otros. 
+  Actualmente desempeña sus funciones como Subsecretario de Desarrollo Urbano del Gobierno de la Ciudad de Almafuerte. 
+
+
+        </div>
+    </div>
+  </section>
+
+  <section id="tramites" class="about">
+    <div class="container" data-aos="fade-up">
+      <div class="row no-gutters">
+       
+        <div class="d-flex flex-column justify-content-center about-content">
+
+          <div class="section-title">              
+            <h2>Trámites</h2>
+            <p>Trámites que puedes realizar en esta area</p>
+          </div>
+
+          <div class="icon-box">
+            <a href="https://forms.gle/h7jM95Ru16YHUrhQ8" >
+              <div class="icon"><i class="icofont-attachment"></i></div>              
+              <h4 class="title">Reclamos por Luminarias</h4>
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptatibus iste facere nemo corrupti distinctio aliquid, molestias debitis quod ut quo quibusdam temporibus minus corporis quis fugiat! Veniam, nobis esse.</p>
+            </a>
+          </div>
+
+          <div class="icon-box" >
+            <a href="https://forms.gle/J7mKKjCs8DB6QbcX6" >
+              <div class="icon"><i class="icofont-attachment"></i></div>   
+              <h4 class="title">Reclamos por Vía Pública</h4>
+              <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum consequatur, veritatis neque architecto, beatae aliquam non, ducimus error blanditiis iste omnis delectus. Ullam distinctio accusantium velit pariatur illum nihil unde!</p>
+            </a>
+          </div>
+
+          <div class="icon-box" >
+            <a href="https://forms.gle/w459nbWX7qjupgtr5" >
+              <div class="icon"><i class="icofont-attachment"></i></div>   
+              <h4 class="title">Reclamos por Espacios Públicos</h4>
+              <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum consequatur, veritatis neque architecto, beatae aliquam non, ducimus error blanditiis iste omnis delectus. Ullam distinctio accusantium velit pariatur illum nihil unde!</p>
+            </a>
+          </div>
+
+          <div class="icon-box" >
+            <a href="https://forms.gle/VFxHQuATpNzmVY7E8" >
+              <div class="icon"><i class="icofont-attachment"></i></div>   
+              <h4 class="title">Plan Municipal de Vivienda</h4>
+              <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum consequatur, veritatis neque architecto, beatae aliquam non, ducimus error blanditiis iste omnis delectus. Ullam distinctio accusantium velit pariatur illum nihil unde!</p>
+            </a>
+          </div>
+
+          <div class="icon-box" >
+            <a href="https://forms.gle/k2HnYU7YHFygxG1e8" >
+              <div class="icon"><i class="icofont-attachment"></i></div>   
+              <h4 class="title">Conexión de Energía Eléctrica:</h4>
+              <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum consequatur, veritatis neque architecto, beatae aliquam non, ducimus error blanditiis iste omnis delectus. Ullam distinctio accusantium velit pariatur illum nihil unde!</p>
+            </a>
+          </div>
+
+          <div class="icon-box" >
+            <a href="https://forms.gle/sdoWoGTSub5fW7Gh6" >
+              <div class="icon"><i class="icofont-attachment"></i></div>   
+              <h4 class="title">Conexión de Agua Corriente:</h4>
+              <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum consequatur, veritatis neque architecto, beatae aliquam non, ducimus error blanditiis iste omnis delectus. Ullam distinctio accusantium velit pariatur illum nihil unde!</p>
+            </a>
+          </div>
+
+          <div class="icon-box" >
+            <a href="https://forms.gle/vPrLdNTHKABwtqFB8" >
+              <div class="icon"><i class="icofont-attachment"></i></div>   
+              <h4 class="title">Conexión de Cloacas:</h4>
+              <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum consequatur, veritatis neque architecto, beatae aliquam non, ducimus error blanditiis iste omnis delectus. Ullam distinctio accusantium velit pariatur illum nihil unde!</p>
+            </a>
+          </div>
+
+          <div class="icon-box" >
+            <a href="https://forms.gle/LoJ5DrByLGPVN9un8" >
+              <div class="icon"><i class="icofont-attachment"></i></div>   
+              <h4 class="title">Presentación de Planos de Obra:</h4>
+              <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum consequatur, veritatis neque architecto, beatae aliquam non, ducimus error blanditiis iste omnis delectus. Ullam distinctio accusantium velit pariatur illum nihil unde!</p>
+            </a>
+          </div>
+
+          <div class="icon-box" >
+            <a href="https://forms.gle/QThR3Rnn6tQLkeYX6" >
+              <div class="icon"><i class="icofont-attachment"></i></div>   
+              <h4 class="title">Cambio de titularidad:</h4>
+              <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum consequatur, veritatis neque architecto, beatae aliquam non, ducimus error blanditiis iste omnis delectus. Ullam distinctio accusantium velit pariatur illum nihil unde!</p>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
     <!-- ======= Contact Us Section ======= -->
     <section id="contacto" class="contact">
       <div class="container">
