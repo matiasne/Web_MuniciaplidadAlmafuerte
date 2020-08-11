@@ -21,21 +21,11 @@ class Cabecera extends HTMLElement{
             <nav class="nav-menu float-right d-none d-lg-block">
               <ul>
                 <li class="active"><a href="./index.html">Home</a></li>
-                <li><a href="#servicios">Trámites</a></li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Gobierno
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Intendencia</a>
-                    <a class="dropdown-item" href="#">Concejo Deliberante</a>
-                    <a class="dropdown-item" href="#">Tribunal de Cuentas
-                    </a>
-                  </div>
-                </li>
+                <li><a href="./tramites.html">Trámites</a></li>
+                <li><a href="./gobierno-subsecciones.html">Gobierno</a></li>
                 <li><a href="./index.html?vecinos=true#areas">Areas</a></li>   
-                <li><a href="./turismo.html">Novedades </a></li>
-                <li><a href="./turismo.html">Contactos  </a></li>
+                <li><a href="./transparencia.html">Transparencia</a></li>
+                <li><a href="./turismo.html">Contactos</a></li>
               </ul>
             </nav><!-- .nav-menu -->
       
