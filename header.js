@@ -25,7 +25,7 @@ class Cabecera extends HTMLElement{
                 <li><a href="./gobierno-subsecciones.html">Gobierno</a></li>
                 <li><a href="./index.html?vecinos=true#areas">Areas</a></li>   
                 <li><a href="./transparencia.html">Transparencia</a></li>
-                <li><a href="./turismo.html">Contactos</a></li>
+                <li><a href="./index.html?vecinos=true#contacto">Contactos</a></li>
               </ul>
             </nav><!-- .nav-menu -->
       
