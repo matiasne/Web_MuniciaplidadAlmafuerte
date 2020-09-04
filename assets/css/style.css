@@ -1160,6 +1160,12 @@ section-title-modal h2{
   }
 }
 
+.social>p {
+  color: white;
+}
+
+
+
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
@@ -1566,3 +1572,36 @@ section-title-modal h2{
   font-size: 14px;
   color: white;
 }
+
+.titleAreas{
+  margin-left: 166px;
+}
+
+.justificado {
+  
+  text-align: justify;
+  text-justify: inter-word;
+    
+}
+
+.area-description {
+ margin-top: 50px;
+    margin-left: 400px;
+    margin-bottom: 25px;
+}
+
+.img-area {
+ margin-left: 30px;
+ margin-top: -50px;
+}
+
+.img-estacion-cultural {
+  height: 340px;
+  width: 80%;
+  margin-left: 100px;
+}
+
+.titulo-span > div >span {
+  font-weight: bold;
+}
+
