@@ -602,6 +602,7 @@ section-title-modal h2{
 .about .icon-box .title {
   margin-left: 95px;
   font-weight: 700;
+ 
   margin-bottom: 10px;
   font-size: 18px;
   text-transform: uppercase;
@@ -1077,7 +1078,7 @@ section-title-modal h2{
 # Our Team
 --------------------------------------------------------------*/
 .team {
-  padding: 60px 0 30px 0;
+  padding: 60px 10px 30px 10px;
 }
 
 .team .member {
@@ -1158,6 +1159,24 @@ section-title-modal h2{
   .team .member {
     margin-bottom: 100px;
   }
+
+  
+.about .icon-box .description {
+  margin-left: 0px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.about .icon-box .title {
+  margin-left: 95px;
+  font-weight: 700;
+ height: 72px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
 }
 
 .social>p {
@@ -1604,4 +1623,5 @@ section-title-modal h2{
 .titulo-span > div >span {
   font-weight: bold;
 }
+
 
