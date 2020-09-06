@@ -523,6 +523,7 @@ section {
 }
 
 .section-title {
+  width: 100%;
   text-align: center;
   padding-bottom: 30px;
   padding-top: 30px;
@@ -618,7 +619,6 @@ section-title-modal h2{
 }
 
 .about .icon-box .description {
-  margin-left: 95px;
   line-height: 24px;
   font-size: 14px;
 }
@@ -949,6 +949,7 @@ section-title-modal h2{
 }
 
 .areas .description {
+  
   line-height: 24px;
   font-size: 14px;
   color:#0059B2;
@@ -1615,13 +1616,18 @@ section-title-modal h2{
 }
 
 .img-estacion-cultural {
-  height: 340px;
-  width: 80%;
+  max-height: 340px;
+  max-width: 80%;
   margin-left: 100px;
 }
 
 .titulo-span > div >span {
   font-weight: bold;
+}
+
+.social-icons{
+  margin-top:20px;
+  text-align:center;
 }
 
 
