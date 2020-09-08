@@ -1631,3 +1631,12 @@ section-title-modal h2{
 }
 
 
+.principal-section{
+  width: 100%;
+  padding:30px;
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
