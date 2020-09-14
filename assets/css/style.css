@@ -601,7 +601,7 @@ section-title-modal h2{
 }
 
 .about .icon-box .title {
-  margin-left: 95px;
+
   font-weight: 700;
  
   margin-bottom: 10px;
@@ -1638,5 +1638,15 @@ section-title-modal h2{
   background-position: top right;
   background-repeat: no-repeat;
   overflow: hidden;
+}
+
+
+.tramite-title{
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.tramite-area{
+  color: #0059B2;
 }
 
