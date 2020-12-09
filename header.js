@@ -23,7 +23,7 @@ class Cabecera extends HTMLElement{
                 <li class="active"><a href="./index.html">Home</a></li>
                 <li><a href="./tramites.html">Trámites</a></li>
                 <li><a href="./gobierno-subsecciones.html">Gobierno</a></li>
-                <li><a href="./index.html?vecinos=true#areas">Areas</a></li>   
+                <li><a href="./index.html?vecinos=true#areas">Áreas</a></li>   
                 <li><a href="./transparencia.html">Transparencia</a></li>
                 <li><a href="./index.html?vecinos=true#contacto">Contactos</a></li>
               </ul>
