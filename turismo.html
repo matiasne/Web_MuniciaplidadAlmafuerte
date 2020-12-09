@@ -26,46 +26,14 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <script src="./header.js"></script>
   
 </head>
 
 <body>
 
-  <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-none d-lg-block">
-    <div class="container clearfix">
-      <div class="contact-info float-left">
-        <i class="icofont-envelope"></i><a href="mailto:contact@example.com"> info@almafuerte.gov.ar</a>
-        <i class="icofont-phone"></i> +54 (3571) 471110/470202
-      </div>      
-    </div>
-  </section>
-
   <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container">
-
-      <div class="logo float-left">
-        <!--h1 class="text-light"><a href="index.html"><span>Mamba</span></a></h1>
-        < Uncomment below if you prefer to use an image logo -->
-         <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-      </div>
-
-      <nav class="nav-menu float-right d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="./index.html">Home</a></li>
-          <li><a href="#areas">Hoteles</a></li>
-          <li><a href="#servicios">Restaurantes</a></li>          
-          <li><a href="#girsu">Actividades</a></li>
-          <li><a href="#novedades">Eventos</a></li> 
-          <li><a href="#contacto">Contacto</a></li>          
-          <li><a href="./index.html?vecinos=true">Vecinos</a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-
-    </div>
-  </header><!-- End Header -->
+  <cabecera-component></cabecera-component>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
@@ -88,33 +56,27 @@
                 <div class="col-md-6">
                     <div class="header">
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                            <a href="" >
+                            <a href="./hoteles.html" >
                                 <div class="icon"><i class="bx bx-hotel"></i></div>
                                 <h4 class="title">Hoteles</h4>
-                                <p class="description">Nuestra ciudad posee una interesante propuesta hotelera, complejos de cabañas que permiten una estadía con las comodidades de sentirse como en su hogar, y la categoría de un 4 estrellas recientemente instalado en la ciudad.</p>
+                                <p class="description">Complejos de cabañas que permiten una estadía con las comodidades de sentirse como en su hogar.</p>
                             </a>
                         </div>
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                            <a href="" >
+                            <a href="./restaurantes.html" >
                                 <div class="icon"><i class="bx bx-restaurant"></i></div>
                                 <h4 class="title">Restaurantes</h4>
                                 <p class="description">Separar es el primer paso para reciclar y preservar nuestros recursos.</p>
                             </a>
                         </div>                        
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                            <a href="" >
+                            <a href="./actividades.html" >
                                 <div class="icon"><i class="bx bx-bullseye"></i></div>
                                 <h4 class="title">Actividades</h4>
                                 <p class="description">Separar es el primer paso para reciclar y preservar nuestros recursos.</p>
                             </a>
                         </div>
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                            <a href="" >
-                                <div class="icon"><i class="bx bx-calendar"></i></div>
-                                <h4 class="title">Eventos</h4>
-                                <p class="description">Separar es el primer paso para reciclar y preservar nuestros recursos.</p>
-                            </a>
-                        </div>
+              
                     </div>
                 </div>          
               </div>
@@ -200,7 +162,7 @@
       <div class="container">
         <div class="row no-gutters">
           <div class="col-lg-6 video-box">
-            <iframe style="width: 100%;height: 100%;" src="https://www.google.com/maps/d/embed?mid=1cNpq63a-BM2kvdMq3SZMzE7A6mmKZsKo&ll=-32.17572959999999%2C-64.25330450000001&z=17" frameborder="0"></iframe>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Lyg-I18uIxYE0oKiIC9h4nMvBQu2piP_" width="100%" height="400px"></iframe>
             
           </div>
 
@@ -210,16 +172,18 @@
               <h2>Mapa</h2>
               <p>Nuestra ciudad cuenta con todos los servicios para atenderte durante todo el año. Restaurantes, bares, artesanias, sabores serranos, mercados, farmacias, cajeros automáticos y demás servicios para que no te falte nada en tu visita. Además nuestra ciudad presenta una interesante propuesta en alojamientos; hotelería, residencias, complejos de cabañas completamente equipadas, y la categoría de un 4 estrellas recientemente instalado en la ciudad, convierten a Almafuerte en un lugar propicio para tu descanso.</p>
             </div>
-
+          </div>
+          <div class="col-lg-12 d-flex flex-column justify-content-center about-content">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <a href="assets/docs/mapa.pdf" >
                 <div class="icon"><i class="bx bx-been-here"></i></div>              
-                <h4 class="title">Mapa Almafuerte</h4>
+                <h4 class="title">Descargar Mapa</h4>
                 <p class="description">Hace clic y descargate el mapa
                     de servicios de nuestra ciudad.</p>
               </a>
             </div>
-
+          
+         
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <a href="assets/docs/artesanos.pdf" >
                 <div class="icon"><i class="bx bx-gift"></i></div>
@@ -404,7 +368,7 @@
             <div class="info-box">
               <i class="bx bx-envelope"></i>
               <h3>Email</h3>
-              <p>info@almafuerte.gov.ar</p>
+              <p>turismo@almafuerte.gov.ar</p>
             </div>
           </div>
 
@@ -464,7 +428,7 @@
               Tucuman 777 <br>
               Almafuerte, Córdoba, Argentina<br><br>
               <strong>Teléfono:</strong> +54 (3571) 471110/470202<br>
-              <strong>Email:</strong> info@almafuerte.gov.ar<br>
+              <strong>Email:</strong>turismo@almafuerte.gov.a<br>
             </p>
             <div class="social-links mt-3">
               <a href="https://www.youtube.com/channel/UC1ihUKpGO8hcsgDZJw8I60A?feature=watch" class="twitter"><i class="bx bxl-youtube"></i></a>

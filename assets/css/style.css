@@ -523,6 +523,7 @@ section {
 }
 
 .section-title {
+  width: 100%;
   text-align: center;
   padding-bottom: 30px;
   padding-top: 30px;
@@ -600,8 +601,9 @@ section-title-modal h2{
 }
 
 .about .icon-box .title {
-  margin-left: 95px;
+
   font-weight: 700;
+ 
   margin-bottom: 10px;
   font-size: 18px;
   text-transform: uppercase;
@@ -617,7 +619,6 @@ section-title-modal h2{
 }
 
 .about .icon-box .description {
-  margin-left: 95px;
   line-height: 24px;
   font-size: 14px;
 }
@@ -948,6 +949,7 @@ section-title-modal h2{
 }
 
 .areas .description {
+  
   line-height: 24px;
   font-size: 14px;
   color:#0059B2;
@@ -1077,7 +1079,7 @@ section-title-modal h2{
 # Our Team
 --------------------------------------------------------------*/
 .team {
-  padding: 60px 0 30px 0;
+  padding: 60px 10px 30px 10px;
 }
 
 .team .member {
@@ -1158,7 +1160,31 @@ section-title-modal h2{
   .team .member {
     margin-bottom: 100px;
   }
+
+  
+.about .icon-box .description {
+  margin-left: 0px;
+  line-height: 24px;
+  font-size: 14px;
 }
+
+.about .icon-box .title {
+  margin-left: 95px;
+  font-weight: 700;
+ height: 72px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
+}
+
+.social>p {
+  color: white;
+}
+
+
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
@@ -1522,6 +1548,7 @@ section-title-modal h2{
   display: inline-block;
   width: 100%;
   max-width: 700px;
+  max-height: 100px;
   background-color: #0059B2;
 }
 
@@ -1566,3 +1593,61 @@ section-title-modal h2{
   font-size: 14px;
   color: white;
 }
+
+.titleAreas{
+  margin-left: 166px;
+}
+
+.justificado {
+  
+  text-align: justify;
+  text-justify: inter-word;
+    
+}
+
+.area-description {
+ margin-top: 50px;
+    margin-left: 400px;
+    margin-bottom: 25px;
+}
+
+.img-area {
+ margin-left: 30px;
+ margin-top: -50px;
+}
+
+.img-estacion-cultural {
+  max-height: 340px;
+  max-width: 80%;
+  margin-left: 100px;
+}
+
+.titulo-span > div >span {
+  font-weight: bold;
+}
+
+.social-icons{
+  margin-top:20px;
+  text-align:center;
+}
+
+
+.principal-section{
+  width: 100%;
+  padding:30px;
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+
+.tramite-title{
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.tramite-area{
+  color: #0059B2;
+}
+
