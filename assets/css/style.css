@@ -392,7 +392,18 @@ p{
   bottom: 0;
   overflow: hidden;
 }
-
+#hero .turismo::before {
+  content: '';
+  background-color: rgba(13, 30, 45, 0.2);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+}
 #hero .carousel-container {
   display: flex;
   justify-content: center;
